@@ -1,3 +1,5 @@
+import freekick_cover from "../../assets/projects/covers/Freekick-VR.jpg";
+
 const projects = {
     namespaced: true,
     state: {
@@ -14,9 +16,9 @@ const projects = {
         projects : [
             {
                 id: 0,
-                title: "Mon projet",
-                description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
-                image: "https://www.w3schools.com/w3css/img_lights.jpg",
+                title: "Freekick VR",
+                description: "Jeu couch coop alliant VR, kinect & smartphone",
+                image: freekick_cover,
                 tags : [0]
             },
              {
